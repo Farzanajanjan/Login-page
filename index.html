@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+</head>
+<body>
+    <!-- header -->
+  <header class="header">
+    <nav class="nav">
+        <a href="#" class="nav_log">InspireCoding</a>
+        <ul class="nav_items">
+            <li class="nav_item">
+                <a href="#" class="nav_link">Home</a>
+                <a href="#" class="nav_link">About Us</a>
+                <a href="#" class="nav_link">Services</a>
+                <a href="#" class="nav_link">Contact Us</a>
+            </li>
+        </ul>
+        <button class="button" id="form_open">Login</button>
+    </nav>
+  </header>
+  <!-- Home -->
+  <section class="home">
+      <div class="form_contianer">
+          <i class="fa fa-close form_close"></i>
+<!-- Login Form -->
+<div class=" form login_form">
+<form action="#">
+    <h2>Login</h2>
+    <div class="inpot_box">
+        <input type="email" placeholder="Enter Your Email" required>
+        <i class="fa fa-envelope email"></i>
+    </div>
+    <div class="inpot_box">
+        <input type="password" placeholder="Enter Your password" required>
+        <i class="fa fa-lock password"></i>
+        <i class="fa fa-eye-slash pw-hide"></i>
+    </div>
+    <div class="option_field">
+        <span class="cheacbox">
+            <input type="checkbox" id="check">
+            <label for="checkbox">Remember me</label>
+        </span>
+        <a href="#" class="forgot_pw">Forgot password?</a>
+    </div>
+    <button class="button">Login Now</button>
+<div class="login_signup">Don't have you account? <a href="#" id="signup">Singnup</a></div>
+</form>
+</div>
+<!-- Sign Up Form -->
+<div class=" form signup_form">
+    <form action="#">
+        <h2>Sign Up</h2>
+        <div class="inpot_box">
+            <input type="email" placeholder="Enter Your Email" required>
+            <i class="fa fa-envelope email"></i>
+        </div>
+        <div class="inpot_box">
+            <input type="password" placeholder="Creat Your password" required>
+            <i class="fa fa-lock password"></i>
+            <i class="fa fa-eye-slash pw-hide"></i>
+        </div>
+        <div class="inpot_box">
+            <input type="password" placeholder="Confirm Your password" required>
+            <i class="fa fa-lock password"></i>
+            <i class="fa fa-eye-slash pw-hide"></i>
+        </div>
+       
+        <button class="button">SignUp Now</button>
+    <div class="login_signup">Already have you account? <a href="#" id="login">Login</a></div>
+    </form>
+    </div>
+      </div>
+  </section>
+  <script src="asset/script.js">
+  
+   
+</script>
+</body>
+</html>
